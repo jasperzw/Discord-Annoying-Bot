@@ -4,6 +4,7 @@
 
 // Import the discord.js module
 const Discord = require('discord.js');
+const botToken = require('./tokensAndApiKeys').botToken.key;
 
 // Create an instance of a Discord client
 const client = new Discord.Client();
@@ -21,4 +22,4 @@ client.on('message', message => {
     message.reply("Onvoldoende");
   }
 });
-client.login('MzIyMjk4MzcwNzQxODk1MTY5.DBqjWA.-VfE-QEOpuGaREeZ0YV-9KJ8AM0');
+client.login(botToken);

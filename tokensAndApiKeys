@@ -1,0 +1,4 @@
+const botToken = {
+    key: 'MzIyMjk4MzcwNzQxODk1MTY5.DBqjWA.-VfE-QEOpuGaREeZ0YV-9KJ8AM0'
+};
+module.exports.botToken = botToken;

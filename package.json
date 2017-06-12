@@ -21,6 +21,7 @@
   "homepage": "https://github.com/joller134/Discord-Annoying-Bot#readme",
   "dependencies": {
     "discord.js": "^11.1.0",
+    "ffmpeg-binaries": "^3.2.2-3",
     "opusscript": "0.0.3",
     "uws": "^0.14.5"
   }
